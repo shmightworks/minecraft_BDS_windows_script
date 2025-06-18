@@ -4,7 +4,8 @@ powershell script to install/update/backup your windows minecraft bedrock server
 This script will do the following:<br />
 -Stop the running bedrock_server<br />
 -Backup the worlds folder and *.json and *.properties in a zip (you can set the folder to be somewhere in your FTP server to offload your backups)<br />
--Check https://www.minecraft.net/en-us/download/server/bedrock for the latest version<br />
+~-Check https://www.minecraft.net/en-us/download/server/bedrock for the latest version<br />~
+-Check https://net-secondary.web.minecraft-services.net/api/v1.0/download/links for latest version <br />
 -If the latest version isn't downloaded, then initiate update:<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Download the latest server zip<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Backup the full server in a zip<br />
