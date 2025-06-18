@@ -1,4 +1,4 @@
-# minecraft_BDS_windows_script
+# minecraft bedrock dedicated server windows powerscript
 powershell script to install/update/backup your windows minecraft bedrock server
 
 This script will do the following:<br />
