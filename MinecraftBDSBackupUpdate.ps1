@@ -1,6 +1,6 @@
 $ServerSuffix = ""
-$MinecraftServerPath = "C:\minecraft"
-$BackupPath = "C:\FTP\MinecraftBackups"
+$MinecraftServerPath = "C:\minecraft$ServerSuffix"
+$BackupPath = "C:\FTP\MinecraftBackups$ServerSuffix"
 $DTNow = get-date
 $ScriptPath = Split-Path $MyInvocation.MyCommand.Path -Parent
 $WorldBackupPath = $BackupPath + "\minecraftworld_" + $DTNow.ToString("yyyyMMdd-HHmm") + ".zip"
